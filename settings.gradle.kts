@@ -1,1 +1,1 @@
-rootProject.name = "LetUsDeploy"
+rootProject.name = "BookStoreApplication"

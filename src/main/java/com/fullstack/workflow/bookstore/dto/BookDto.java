@@ -6,7 +6,7 @@ import java.util.UUID;
 public  record BookDto(
         String title,
         UUID serialNumber,
-        String Author
+        String author
 ){
 
 }

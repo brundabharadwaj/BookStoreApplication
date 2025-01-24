@@ -18,7 +18,7 @@ public class BookController {
 
     @GetMapping
     public ResponseEntity<List<BookDto>> getAllBooks(){
-        BookDto myBook = new BookDto("You are Awesome", UUID.randomUUID(),"Brunda Bharadwaj ");
+        BookDto myBook = new BookDto("You are Awesome", UUID.randomUUID(),"Brunda Bharadwaj");
         return new ResponseEntity<>(List.of(myBook), HttpStatus.OK);
     }
 

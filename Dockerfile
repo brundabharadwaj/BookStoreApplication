@@ -1,5 +1,5 @@
 # Pull your image from Docker Hub
-FROM brundambharadwaj/bookstoreapp-0.0.1:latest
+FROM --platform=linux/amd64 brundambharadwaj/bookstoreapp-0.0.1:latest
 
 # Set the working directory inside the container
 WORKDIR /app

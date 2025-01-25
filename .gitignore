@@ -1,0 +1,31 @@
+# OS-specific files
+.DS_Store
+
+# Gradle files
+.gradle/
+build/
+
+# IntelliJ IDEA project files
+.idea/
+
+# Gradle wrapper files
+gradlew
+gradlew.bat
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Java build outputs
+*.class
+
+# Dependency cache
+.gradle/
+build/
+
+# System files
+Thumbs.db
+

@@ -18,7 +18,7 @@ Libraries and Build Tools Used:
 5. Flyway addition for Db scripts []
 6. Delete book by Admin []
 7. Repo testing []
-8. Dockerise application and deploy []
+8. Containerize application and deploy in render []
 
 
 

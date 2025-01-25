@@ -1,11 +1,14 @@
-# Pull your image from Docker Hub
-FROM --platform=linux/amd64 brundambharadwaj/bookstoreapp-0.0.1:latest
+# Pull your image from Docker Hub without specifying the platform
+FROM brundambharadwaj/bookstoreapp-0.0.1:latest
 
 # Set the working directory inside the container
 WORKDIR /app
 
-# Expose the port your application will run on
+# Copy the JAR file from the host to the container
+COPY build/libs/bookstoreapp-0.0.1.jar app.jar
+
+# Expose the port your Spring Boot application runs on
 EXPOSE 8080
 
-# Command to run your application
+# Run the application
 ENTRYPOINT ["java", "-jar", "app.jar"]

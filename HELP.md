@@ -14,11 +14,13 @@ Libraries and Build Tools Used:
 1. Get List of all the Books in the Store []
 2. Add Book to the Store[ ]
 3. Add List of Books to the store []
-4. Swagger integration [X]
-5. Flyway addition for Db scripts []
-6. Delete book by Admin []
-7. Repo testing []
-8. Containerize application and deploy in render []
+4. Flyway addition for Db scripts []
+5. Delete book by Admin []
+6. Repo testing []
+7. Containerize application and deploy in render []
+
+Documentation so far: 
+![img_2.png](img_2.png)
 
 
 

@@ -16,6 +16,7 @@ Libraries and Build Tools Used:
 4. Swagger integration
 5. Flyway addition for Db scripts
 6. Delete book by Admin
+7. Repo testing
 
 
 

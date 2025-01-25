@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.fullstack.workflow.bookstore.api.BookControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-01-24T15:40:44" hostname="Brus-Laptop.local" time="0.385">
+<testsuite name="com.fullstack.workflow.bookstore.api.BookControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-01-25T03:53:56" hostname="Brus-Laptop.local" time="0.359">
   <properties/>
-  <testcase name="getAllBooks_ReturnsListOfBooks()" classname="com.fullstack.workflow.bookstore.api.BookControllerTest" time="0.385"/>
-  <system-out><![CDATA[21:10:44.495 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.fullstack.workflow.bookstore.api.BookControllerTest]: BookControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-21:10:44.552 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.fullstack.workflow.bookstore.BookStoreApplication for test class com.fullstack.workflow.bookstore.api.BookControllerTest
+  <testcase name="getAllBooks_ReturnsListOfBooks()" classname="com.fullstack.workflow.bookstore.api.BookControllerTest" time="0.359"/>
+  <system-out><![CDATA[2025-01-25T09:23:56.623+05:30  INFO 75051 --- [BookStoreApplication] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.fullstack.workflow.bookstore.api.BookControllerTest]: BookControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-25T09:23:56.631+05:30  INFO 75051 --- [BookStoreApplication] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.fullstack.workflow.bookstore.BookStoreApplication for test class com.fullstack.workflow.bookstore.api.BookControllerTest
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -14,12 +14,13 @@
 
  :: Spring Boot ::                (v3.4.1)
 
-2025-01-24T21:10:44.674+05:30  INFO 67627 --- [BookStoreApplication] [    Test worker] c.f.w.bookstore.api.BookControllerTest   : Starting BookControllerTest using Java 23 with PID 67627 (started by bru in /Users/bru/Documents/Personal/BookStoreApplication)
-2025-01-24T21:10:44.675+05:30  INFO 67627 --- [BookStoreApplication] [    Test worker] c.f.w.bookstore.api.BookControllerTest   : No active profile set, falling back to 1 default profile: "default"
-2025-01-24T21:10:44.957+05:30  INFO 67627 --- [BookStoreApplication] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2025-01-24T21:10:44.957+05:30  INFO 67627 --- [BookStoreApplication] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2025-01-24T21:10:44.958+05:30  INFO 67627 --- [BookStoreApplication] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
-2025-01-24T21:10:44.969+05:30  INFO 67627 --- [BookStoreApplication] [    Test worker] c.f.w.bookstore.api.BookControllerTest   : Started BookControllerTest in 0.392 seconds (process running for 0.803)
+2025-01-25T09:23:56.643+05:30  INFO 75051 --- [BookStoreApplication] [    Test worker] c.f.w.bookstore.api.BookControllerTest   : Starting BookControllerTest using Java 23 with PID 75051 (started by bru in /Users/bru/Documents/Personal/BookStoreApplication)
+2025-01-25T09:23:56.643+05:30  INFO 75051 --- [BookStoreApplication] [    Test worker] c.f.w.bookstore.api.BookControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2025-01-25T09:23:56.696+05:30  INFO 75051 --- [BookStoreApplication] [    Test worker] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-01-25T09:23:56.866+05:30  INFO 75051 --- [BookStoreApplication] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-01-25T09:23:56.866+05:30  INFO 75051 --- [BookStoreApplication] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-01-25T09:23:56.867+05:30  INFO 75051 --- [BookStoreApplication] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-01-25T09:23:56.878+05:30  INFO 75051 --- [BookStoreApplication] [    Test worker] c.f.w.bookstore.api.BookControllerTest   : Started BookControllerTest in 0.241 seconds (process running for 2.296)
 ]]></system-out>
   <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build what is described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#0.3
 WARNING: A Java agent has been loaded dynamically (/Users/bru/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.15.11/a38b16385e867f59a641330f0362ebe742788ed8/byte-buddy-agent-1.15.11.jar)

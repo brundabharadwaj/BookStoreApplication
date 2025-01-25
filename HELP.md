@@ -8,15 +8,17 @@ Libraries and Build Tools Used:
 * [Spring Web](https://docs.spring.io/spring-boot/3.4.1/reference/web/servlet.html)
 * [Spring Boot DevTools](https://docs.spring.io/spring-boot/3.4.1/reference/using/devtools.html)
 * [Spring Data JPA](https://docs.spring.io/spring-boot/3.4.1/reference/data/sql.html#data.sql.jpa-and-spring-data)
+* Swagger Open API
 
 ### TODOS:
-1. Get List of all the Books in the Store
-2. Add Book to the Store
-3. Add List of Books to the store 
-4. Swagger integration
-5. Flyway addition for Db scripts
-6. Delete book by Admin
-7. Repo testing
+1. Get List of all the Books in the Store []
+2. Add Book to the Store[ ]
+3. Add List of Books to the store []
+4. Swagger integration [X]
+5. Flyway addition for Db scripts []
+6. Delete book by Admin []
+7. Repo testing []
+8. Dockerise application and deploy []
 
 
 

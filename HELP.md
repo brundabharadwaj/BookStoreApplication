@@ -17,10 +17,10 @@ Libraries and Build Tools Used:
 4. Flyway addition for Db scripts []
 5. Delete book by Admin []
 6. Repo testing []
-7. Containerize application and deploy in render []
 
 Documentation so far: 
 ![img_2.png](img_2.png)
 
+App is Live at : https://bookstoreapp-0-0-1.onrender.com/swagger-ui/index.html
 
 
